@@ -1,0 +1,31 @@
+.container{
+  display: block;
+  width: 70%;
+  height: 100%;
+  margin: auto auto;
+
+}
+table {
+  width:100%;
+}
+#col-name{
+  text-align: center;
+  color: #1ad131;
+  font-weight: bold;
+  
+}
+table, th, td {
+ 
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  font-size: 25px;
+  padding: 10px;
+  text-align: left;
+  color: black;
+
+}
+.hover:hover{
+  background-color: lightgreen;
+}

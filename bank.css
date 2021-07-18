@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.back {
+    background-image: url("bankimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.back h1 {
+    text-align: center;
+    padding-top: 140px;
+    color: rgb(21, 110, 21);
+    font-size: 70px;
+    width: 100%;
+    height: 100%;
+}
+
+.foot {
+
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #111;
+    height: 55px;
+
+}
+
+.foot p {
+    text-align: center;
+    color: rgb(8, 148, 8);
+    margin-top: 17px;
+}
+
+.foot a{
+    color:white;
+}
+
+.info {
+    background-color: rgb(214, 208, 208);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.info h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sparkweb {
+    width: 100%;
+    height: 45px;
+}
+
+.sparkweb a {
+    color: darkgreen;
+}
+
+.sparkweb h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.profileLink {
+    text-align: center;
+}
+
+
+.fa-instagram {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 13px 10px;
+}
+
+.fa-linkedin {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 13px 10px;
+}
+
+.fa-facebook {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 13px 10px;
+}
+
+.fa-twitter {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 13px 10px;
+
+}
+
+#small{
+    width: 20%;
+    display: block;
+    margin: 30px auto;
+}
+
+.button{
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width:80px;
+    padding:6px 6px;
+    border: none;
+    cursor:pointer;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+.customer-body {
+    background-image: url("customer-body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+}
